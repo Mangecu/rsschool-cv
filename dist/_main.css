@@ -1,0 +1,234 @@
+.main {
+  background-color: #fff;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+}
+.main .main__sections {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.main .main__sections .main__left {
+  display: flex;
+  flex-direction: column;
+  width: 290%;
+}
+.main .main__sections .main__left .main_skills {
+  display: flex;
+  flex-direction: column;
+}
+.main .main__sections .main__left .main_skills h3 {
+  font-weight: 700;
+  color: #2a2e36;
+  line-height: 28px;
+  font-size: 23px;
+}
+.main .main__sections .main__left .main_skills ul {
+  display: flex;
+  flex-direction: column;
+}
+.main .main__sections .main__left .main_skills ul li {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main .main__sections .main__left .main_skills ul li i {
+  font-size: 10px;
+  margin-right: 10px;
+}
+.main .main__sections .main__left .main_skills ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.main .main__sections .main__left .main__lang-skills {
+  display: flex;
+  flex-direction: column;
+}
+.main .main__sections .main__left .main__lang-skills h3 {
+  font-weight: 700;
+  color: #2a2e36;
+  line-height: 28px;
+  font-size: 23px;
+}
+.main .main__sections .main__left .main__lang-skills ul {
+  display: flex;
+  flex-direction: column;
+}
+.main .main__sections .main__left .main__lang-skills ul li {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main .main__sections .main__left .main__lang-skills ul li i {
+  font-size: 10px;
+  margin-right: 10px;
+}
+.main .main__sections .main__left .main__lang-skills ul li p {
+  font-size: 20px;
+  line-height: 28px;
+}
+.main .main__sections .main__left .main__lang-skills ul li p span {
+  font-weight: 500;
+}
+.main .main__sections .main__left .main__lang-skills ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+.main .main__sections .main__left section:not(:last-child) {
+  margin-bottom: 50px;
+}
+.main .main__sections .main__left .main__hobby {
+  display: flex;
+  flex-direction: column;
+}
+.main .main__sections .main__left .main__hobby h3 {
+  font-weight: 700;
+  color: #2a2e36;
+  line-height: 28px;
+  font-size: 23px;
+}
+.main .main__sections .main__left .main__hobby ul {
+  display: flex;
+  flex-direction: column;
+}
+.main .main__sections .main__left .main__hobby ul li {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main .main__sections .main__left .main__hobby ul li i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.main .main__sections .main__left .main__hobby ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+.main .main__sections .main__right {
+  display: flex;
+  flex-direction: column;
+}
+.main .main__sections .main__right .main__about-myself {
+  display: flex;
+  flex-direction: column;
+}
+.main .main__sections .main__right .main__about-myself h3 {
+  font-weight: 700;
+  color: #2a2e36;
+  line-height: 28px;
+  font-size: 23px;
+}
+.main .main__sections .main__right .main__about-myself p {
+  font-size: 16px;
+  line-height: 25px;
+}
+.main .main__sections .main__right .main__education {
+  display: flex;
+  flex-direction: column;
+}
+.main .main__sections .main__right .main__education h3 {
+  font-weight: 700;
+  color: #2a2e36;
+  line-height: 28px;
+  font-size: 23px;
+}
+.main .main__sections .main__right .main__education ul {
+  display: flex;
+  flex-direction: column;
+}
+.main .main__sections .main__right .main__education ul li {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.main .main__sections .main__right .main__education ul li div {
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main .main__sections .main__right .main__education ul li div span {
+  font-weight: 500;
+}
+.main .main__sections .main__right .main__education ul li div i {
+  font-size: 10px;
+  margin-right: 10px;
+}
+.main .main__sections .main__right .main__education ul li div:last-child {
+  margin-left: 20px;
+}
+.main .main__sections .main__right .main__education ul li:not(:last-child) {
+  margin-bottom: 15px;
+}
+.main .main__sections .main__right .main__courses {
+  display: flex;
+  flex-direction: column;
+}
+.main .main__sections .main__right .main__courses h3 {
+  font-weight: 700;
+  color: #2a2e36;
+  line-height: 28px;
+  font-size: 23px;
+}
+.main .main__sections .main__right .main__courses ul {
+  display: flex;
+  flex-direction: column;
+}
+.main .main__sections .main__right .main__courses ul li {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.main .main__sections .main__right .main__courses ul li div {
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.main .main__sections .main__right .main__courses ul li div span {
+  font-weight: 500;
+}
+.main .main__sections .main__right .main__courses ul li div i {
+  font-size: 10px;
+  margin-right: 10px;
+}
+.main .main__sections .main__right .main__courses ul li div:not(:first-child) {
+  margin-left: 20px;
+}
+.main .main__sections .main__right section:not(:last-child) {
+  margin-bottom: 50px;
+}
+.main .main__code h3 {
+  font-weight: 700;
+  color: #2a2e36;
+  line-height: 28px;
+  font-size: 23px;
+}
+.main .main__code p {
+  font-size: 16px;
+  line-height: 25px;
+}
+.main .main__code pre {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.main .main__code pre code {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.main__hr {
+  height: 2px;
+  background-color: #2a2e36;
+  width: 45px;
+  margin: 20px 0 20px 0;
+}

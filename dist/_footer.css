@@ -1,0 +1,28 @@
+.footer {
+  background-color: #2A2E36;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+}
+.footer .footer__year {
+  color: #fff;
+  font-size: 24px;
+}
+.footer .footer__github {
+  color: #fff;
+  font-size: 24px;
+}
+.footer .footer__github i {
+  color: #fff;
+}
+.footer .footer__github a {
+  color: #fff;
+}
+.footer .footer__rsschool img {
+  width: 100px;
+  height: 50px;
+  background-color: #ffd800;
+}
